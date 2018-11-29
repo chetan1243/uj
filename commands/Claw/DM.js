@@ -14,7 +14,7 @@ if(message.author.id !== botconfig.owner) return;
 }
 module.exports.command = {
         name: 'DM',
-        permission: "none",
+        permission: "ADMINISTRATOR",
         description: "DM A USER",
         usage: `FOR DIRECT MESSAGE`,
         category: "CLAW",
