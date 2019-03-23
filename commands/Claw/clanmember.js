@@ -9,9 +9,9 @@ module.exports.run = async(bot, message) => {
     .setColor("#00ff00")
     .setThumbnail(bicon)
     .addField("CLAN FOUNDER-","CLAW | ALEX THE HAWK")
-    .addField("CLAN ADMINS","1.CLAW | GHOST \n 2.CLAW | VISHESH \n 3.CLAW | BISWAJIT")
-    .addField("CLAN MODRETORS","1.CLAW | THUNDERBOLT \n 2.CLAW | CHAITU \n 3.CLAW | JP \n 4.CLAW | MR_EVIL")
-    .addField("CLAN MEMBERS","1.CLAW | BUNNY \n 2.CLAW | ROHAN \n 3.CLAW | ANCIENT \n 4.CLAW | ANGRY \n 5.CLAW | ASSASSIN \n  6.CLAW | Ashwin \n 7.CLAW | KUNAL \n 8.CLAW | Manish \n 9.CLAW | ZAP \n 10.CLAW | ARYAN \n 11.CLAW | Anubhav \n 12.CLAW | GUCCIMAN \n 13.CLAW | GODSPEED");
+    .addField("CLAN ADMINS","1.CLAW | GHOST \n 2.CLAW | VISHESH \n 3.CLAW | BISWAJIT \n 4.CLAW | BUNNY \n 5. CLAW | MREVIL")
+    .addField("CLAN MODRETORS","3.CLAW | JP")
+    .addField("CLAN MEMBERS","1.CLAW | ZAP \n 2.CLAW | ROHAN \n 3.CLAW | APOPHIS \n 4.CLAW | SUMO \n 5.CLAW |CHAITU \n 6.CLAW | ZAP \n 7.CLAW | ARYAN \n 8.CLAW | AVI \n 9.CLAW | GODSPEED");
 
     message.channel.send(botembed);
 
