@@ -50,12 +50,7 @@ message.channel.send(commandhelp); // ye comamnd help hai main help nahi
     bot.commands.filter(cmd => cmd.command.category === "ECONOMY").map(cmd => economy.addField(cmd.command.name , `**${cmd.command.description}**`));
     message.author.send(economy);
 
-    let claw = new Discord.RichEmbed()
-    .setTitle("Claw COMMANDS")
-    .setDescription(`${bot.user.username} Claw Commands`) 
-    .setColor("BLUE")
-    bot.commands.filter(cmd => cmd.command.category === "CLAW").map(cmd => claw.addField(cmd.command.name , `**${cmd.command.description}**`));
-    message.author.send(claw);
+    
 
 
 
