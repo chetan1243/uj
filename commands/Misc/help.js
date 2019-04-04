@@ -50,12 +50,12 @@ message.channel.send(commandhelp); // ye comamnd help hai main help nahi
     bot.commands.filter(cmd => cmd.command.category === "ECONOMY").map(cmd => economy.addField(cmd.command.name , `**${cmd.command.description}**`));
     message.author.send(economy);
 
-     let economy = new Discord.RichEmbed()
+     let mod = new Discord.RichEmbed()
     .setTitle("MODERATION COMMANDS")
     .setDescription(`${bot.user.username} MODERATION Commands`) 
     .setColor("BLUE")
     bot.commands.filter(cmd => cmd.command.category === "MODERATION").map(cmd => economy.addField(cmd.command.name , `**${cmd.command.description}**`));
-    message.author.send(economy);
+    message.author.send(mod);
 
 
 
