@@ -54,7 +54,7 @@ message.channel.send(commandhelp); // ye comamnd help hai main help nahi
     .setTitle("MODERATION COMMANDS")
     .setDescription(`${bot.user.username} MODERATION Commands`) 
     .setColor("BLUE")
-    bot.commands.filter(cmd => cmd.command.category === "MODERATION").map(cmd => economy.addField(cmd.command.name , `**${cmd.command.description}**`));
+    bot.commands.filter(cmd => cmd.command.category === "MODERATION").map(cmd => mod.addField(cmd.command.name , `**${cmd.command.description}**`));
     message.author.send(mod);
 
 
