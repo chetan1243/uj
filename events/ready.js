@@ -14,7 +14,7 @@ module.exports = async (bot) => {
 
     function setGame() {
         const set = () => {
-            bot.user.setActivity(`BLACK VIPERS SERVER`, {type:botconfig.stats}).catch(err => console.log(err));
+            bot.user.setActivity(`GAMERS FOREVER`, {type:botconfig.stats}).catch(err => console.log(err));
         };
         set();
         setInterval(() => set(), 60 * 60000);
